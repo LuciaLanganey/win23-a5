@@ -7,3 +7,4 @@ calculator: main.c addition.c subtraction.c multiplication.c division.c operatio
 
 clean:
 	rm -f calculator *.o
+	$(MAKE) all
